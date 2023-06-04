@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "com.ayushsinghal.quizapp-mergeDebugResources-33:/layout/activity_main.xml",
+        "source": "com.ayushsinghal.quizapp-main-36:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.ayushsinghal.quizapp-mergeDebugResources-33:/layout/activity_quiz.xml",
+        "source": "com.ayushsinghal.quizapp-main-36:/layout/activity_quiz.xml"
+    },
+    {
+        "merged": "com.ayushsinghal.quizapp-mergeDebugResources-33:/layout/activity_score.xml",
+        "source": "com.ayushsinghal.quizapp-main-36:/layout/activity_score.xml"
+    },
+    {
+        "merged": "com.ayushsinghal.quizapp-mergeDebugResources-33:/layout/activity_login.xml",
+        "source": "com.ayushsinghal.quizapp-main-36:/layout/activity_login.xml"
+    },
+    {
+        "merged": "com.ayushsinghal.quizapp-mergeDebugResources-33:/layout/activity_sign_up.xml",
+        "source": "com.ayushsinghal.quizapp-main-36:/layout/activity_sign_up.xml"
+    }
+]

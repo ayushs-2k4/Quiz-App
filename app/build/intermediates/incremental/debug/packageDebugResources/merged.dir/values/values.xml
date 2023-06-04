@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="backgroundColor">#482D28</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <string name="app_name">Quiz App</string>
+    <string name="gcm_defaultSenderId" translatable="false">802388157069</string>
+    <string name="google_api_key" translatable="false">AIzaSyDPzrSg69YTAS2l7fZfO2zhJtGupcoDUx0</string>
+    <string name="google_app_id" translatable="false">1:802388157069:android:065f84f02b0fc099ff78c4</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyDPzrSg69YTAS2l7fZfO2zhJtGupcoDUx0</string>
+    <string name="google_storage_bucket" translatable="false">quiz-app-478c8.appspot.com</string>
+    <string name="project_id" translatable="false">quiz-app-478c8</string>
+    <style name="Base.Theme.QuizApp" parent="Theme.Material3.DayNight.NoActionBar">
+        
+        
+    </style>
+    <style name="Theme.QuizApp" parent="Base.Theme.QuizApp"/>
+</resources>

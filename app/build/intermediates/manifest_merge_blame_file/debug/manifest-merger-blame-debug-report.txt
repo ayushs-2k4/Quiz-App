@@ -1,0 +1,263 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.ayushsinghal.quizapp"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="26"
+8-->/Users/ayushsinghal/AndroidStudioProjects/NeatRoots/Quiz-App/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="33" />
+9-->/Users/ayushsinghal/AndroidStudioProjects/NeatRoots/Quiz-App/app/src/main/AndroidManifest.xml
+10
+11    <!-- Although the *SdkVersion is captured in gradle build files, this is required for non gradle builds -->
+12    <!-- <uses-sdk android:minSdkVersion="14" /> -->
+13    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+13-->[com.google.firebase:firebase-firestore:24.6.0] /Users/ayushsinghal/.gradle/caches/transforms-3/bf3b0f49628393e9d4a310b98377c1c0/transformed/firebase-firestore-24.6.0/AndroidManifest.xml:12:5-79
+13-->[com.google.firebase:firebase-firestore:24.6.0] /Users/ayushsinghal/.gradle/caches/transforms-3/bf3b0f49628393e9d4a310b98377c1c0/transformed/firebase-firestore-24.6.0/AndroidManifest.xml:12:22-76
+14    <uses-permission android:name="android.permission.INTERNET" />
+14-->[com.google.firebase:firebase-firestore:24.6.0] /Users/ayushsinghal/.gradle/caches/transforms-3/bf3b0f49628393e9d4a310b98377c1c0/transformed/firebase-firestore-24.6.0/AndroidManifest.xml:13:5-67
+14-->[com.google.firebase:firebase-firestore:24.6.0] /Users/ayushsinghal/.gradle/caches/transforms-3/bf3b0f49628393e9d4a310b98377c1c0/transformed/firebase-firestore-24.6.0/AndroidManifest.xml:13:22-64
+15
+16    <permission
+16-->[androidx.core:core:1.10.1] /Users/ayushsinghal/.gradle/caches/transforms-3/b29ef2d19436cc6a7bbd909afa95896d/transformed/core-1.10.1/AndroidManifest.xml:22:5-24:47
+17        android:name="com.ayushsinghal.quizapp.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+17-->[androidx.core:core:1.10.1] /Users/ayushsinghal/.gradle/caches/transforms-3/b29ef2d19436cc6a7bbd909afa95896d/transformed/core-1.10.1/AndroidManifest.xml:23:9-81
+18        android:protectionLevel="signature" />
+18-->[androidx.core:core:1.10.1] /Users/ayushsinghal/.gradle/caches/transforms-3/b29ef2d19436cc6a7bbd909afa95896d/transformed/core-1.10.1/AndroidManifest.xml:24:9-44
+19
+20    <uses-permission android:name="com.ayushsinghal.quizapp.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+20-->[androidx.core:core:1.10.1] /Users/ayushsinghal/.gradle/caches/transforms-3/b29ef2d19436cc6a7bbd909afa95896d/transformed/core-1.10.1/AndroidManifest.xml:26:5-97
+20-->[androidx.core:core:1.10.1] /Users/ayushsinghal/.gradle/caches/transforms-3/b29ef2d19436cc6a7bbd909afa95896d/transformed/core-1.10.1/AndroidManifest.xml:26:22-94
+21
+22    <application
+22-->/Users/ayushsinghal/AndroidStudioProjects/NeatRoots/Quiz-App/app/src/main/AndroidManifest.xml:5:5-37:19
+23        android:name="com.ayushsinghal.quizapp.MyApp"
+23-->/Users/ayushsinghal/AndroidStudioProjects/NeatRoots/Quiz-App/app/src/main/AndroidManifest.xml:6:9-30
+24        android:allowBackup="true"
+24-->/Users/ayushsinghal/AndroidStudioProjects/NeatRoots/Quiz-App/app/src/main/AndroidManifest.xml:7:9-35
+25        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+25-->[androidx.core:core:1.10.1] /Users/ayushsinghal/.gradle/caches/transforms-3/b29ef2d19436cc6a7bbd909afa95896d/transformed/core-1.10.1/AndroidManifest.xml:28:18-86
+26        android:dataExtractionRules="@xml/data_extraction_rules"
+26-->/Users/ayushsinghal/AndroidStudioProjects/NeatRoots/Quiz-App/app/src/main/AndroidManifest.xml:8:9-65
+27        android:debuggable="true"
+28        android:extractNativeLibs="false"
+29        android:fullBackupContent="@xml/backup_rules"
+29-->/Users/ayushsinghal/AndroidStudioProjects/NeatRoots/Quiz-App/app/src/main/AndroidManifest.xml:9:9-54
+30        android:icon="@mipmap/ic_launcher"
+30-->/Users/ayushsinghal/AndroidStudioProjects/NeatRoots/Quiz-App/app/src/main/AndroidManifest.xml:10:9-43
+31        android:label="@string/app_name"
+31-->/Users/ayushsinghal/AndroidStudioProjects/NeatRoots/Quiz-App/app/src/main/AndroidManifest.xml:11:9-41
+32        android:roundIcon="@mipmap/ic_launcher_round"
+32-->/Users/ayushsinghal/AndroidStudioProjects/NeatRoots/Quiz-App/app/src/main/AndroidManifest.xml:12:9-54
+33        android:supportsRtl="true"
+33-->/Users/ayushsinghal/AndroidStudioProjects/NeatRoots/Quiz-App/app/src/main/AndroidManifest.xml:13:9-35
+34        android:testOnly="true"
+35        android:theme="@style/Theme.QuizApp" >
+35-->/Users/ayushsinghal/AndroidStudioProjects/NeatRoots/Quiz-App/app/src/main/AndroidManifest.xml:14:9-45
+36        <activity
+36-->/Users/ayushsinghal/AndroidStudioProjects/NeatRoots/Quiz-App/app/src/main/AndroidManifest.xml:16:9-18:40
+37            android:name="com.ayushsinghal.quizapp.SignUpActivity"
+37-->/Users/ayushsinghal/AndroidStudioProjects/NeatRoots/Quiz-App/app/src/main/AndroidManifest.xml:17:13-43
+38            android:exported="false" />
+38-->/Users/ayushsinghal/AndroidStudioProjects/NeatRoots/Quiz-App/app/src/main/AndroidManifest.xml:18:13-37
+39        <activity
+39-->/Users/ayushsinghal/AndroidStudioProjects/NeatRoots/Quiz-App/app/src/main/AndroidManifest.xml:19:9-21:40
+40            android:name="com.ayushsinghal.quizapp.ScoreActivity"
+40-->/Users/ayushsinghal/AndroidStudioProjects/NeatRoots/Quiz-App/app/src/main/AndroidManifest.xml:20:13-42
+41            android:exported="false" />
+41-->/Users/ayushsinghal/AndroidStudioProjects/NeatRoots/Quiz-App/app/src/main/AndroidManifest.xml:21:13-37
+42        <activity
+42-->/Users/ayushsinghal/AndroidStudioProjects/NeatRoots/Quiz-App/app/src/main/AndroidManifest.xml:22:9-24:40
+43            android:name="com.ayushsinghal.quizapp.QuizActivity"
+43-->/Users/ayushsinghal/AndroidStudioProjects/NeatRoots/Quiz-App/app/src/main/AndroidManifest.xml:23:13-41
+44            android:exported="false" />
+44-->/Users/ayushsinghal/AndroidStudioProjects/NeatRoots/Quiz-App/app/src/main/AndroidManifest.xml:24:13-37
+45        <activity
+45-->/Users/ayushsinghal/AndroidStudioProjects/NeatRoots/Quiz-App/app/src/main/AndroidManifest.xml:25:9-27:40
+46            android:name="com.ayushsinghal.quizapp.LoginActivity"
+46-->/Users/ayushsinghal/AndroidStudioProjects/NeatRoots/Quiz-App/app/src/main/AndroidManifest.xml:26:13-42
+47            android:exported="false" />
+47-->/Users/ayushsinghal/AndroidStudioProjects/NeatRoots/Quiz-App/app/src/main/AndroidManifest.xml:27:13-37
+48        <activity
+48-->/Users/ayushsinghal/AndroidStudioProjects/NeatRoots/Quiz-App/app/src/main/AndroidManifest.xml:28:9-36:20
+49            android:name="com.ayushsinghal.quizapp.MainActivity"
+49-->/Users/ayushsinghal/AndroidStudioProjects/NeatRoots/Quiz-App/app/src/main/AndroidManifest.xml:29:13-41
+50            android:exported="true" >
+50-->/Users/ayushsinghal/AndroidStudioProjects/NeatRoots/Quiz-App/app/src/main/AndroidManifest.xml:30:13-36
+51            <intent-filter>
+51-->/Users/ayushsinghal/AndroidStudioProjects/NeatRoots/Quiz-App/app/src/main/AndroidManifest.xml:31:13-35:29
+52                <action android:name="android.intent.action.MAIN" />
+52-->/Users/ayushsinghal/AndroidStudioProjects/NeatRoots/Quiz-App/app/src/main/AndroidManifest.xml:32:17-69
+52-->/Users/ayushsinghal/AndroidStudioProjects/NeatRoots/Quiz-App/app/src/main/AndroidManifest.xml:32:25-66
+53
+54                <category android:name="android.intent.category.LAUNCHER" />
+54-->/Users/ayushsinghal/AndroidStudioProjects/NeatRoots/Quiz-App/app/src/main/AndroidManifest.xml:34:17-77
+54-->/Users/ayushsinghal/AndroidStudioProjects/NeatRoots/Quiz-App/app/src/main/AndroidManifest.xml:34:27-74
+55            </intent-filter>
+56        </activity>
+57
+58        <service
+58-->[com.google.firebase:firebase-firestore-ktx:24.6.0] /Users/ayushsinghal/.gradle/caches/transforms-3/2f18f53519227584ee207a30c648fce7/transformed/firebase-firestore-ktx-24.6.0/AndroidManifest.xml:11:9-17:19
+59            android:name="com.google.firebase.components.ComponentDiscoveryService"
+59-->[com.google.firebase:firebase-firestore-ktx:24.6.0] /Users/ayushsinghal/.gradle/caches/transforms-3/2f18f53519227584ee207a30c648fce7/transformed/firebase-firestore-ktx-24.6.0/AndroidManifest.xml:12:13-84
+60            android:directBootAware="true"
+60-->[com.google.firebase:firebase-common:20.3.2] /Users/ayushsinghal/.gradle/caches/transforms-3/740f9f887f5dc9fa2f3a13ef93a306d9/transformed/firebase-common-20.3.2/AndroidManifest.xml:34:13-43
+61            android:exported="false" >
+61-->[com.google.firebase:firebase-firestore-ktx:24.6.0] /Users/ayushsinghal/.gradle/caches/transforms-3/2f18f53519227584ee207a30c648fce7/transformed/firebase-firestore-ktx-24.6.0/AndroidManifest.xml:13:13-37
+62            <meta-data
+62-->[com.google.firebase:firebase-firestore-ktx:24.6.0] /Users/ayushsinghal/.gradle/caches/transforms-3/2f18f53519227584ee207a30c648fce7/transformed/firebase-firestore-ktx-24.6.0/AndroidManifest.xml:14:13-16:85
+63                android:name="com.google.firebase.components:com.google.firebase.firestore.ktx.FirebaseFirestoreKtxRegistrar"
+63-->[com.google.firebase:firebase-firestore-ktx:24.6.0] /Users/ayushsinghal/.gradle/caches/transforms-3/2f18f53519227584ee207a30c648fce7/transformed/firebase-firestore-ktx-24.6.0/AndroidManifest.xml:15:17-126
+64                android:value="com.google.firebase.components.ComponentRegistrar" />
+64-->[com.google.firebase:firebase-firestore-ktx:24.6.0] /Users/ayushsinghal/.gradle/caches/transforms-3/2f18f53519227584ee207a30c648fce7/transformed/firebase-firestore-ktx-24.6.0/AndroidManifest.xml:16:17-82
+65            <meta-data
+65-->[com.google.firebase:firebase-auth-ktx:22.0.0] /Users/ayushsinghal/.gradle/caches/transforms-3/c9885efd0a86bb7424e413535bae4481/transformed/firebase-auth-ktx-22.0.0/AndroidManifest.xml:11:13-13:85
+66                android:name="com.google.firebase.components:com.google.firebase.auth.ktx.FirebaseAuthKtxRegistrar"
+66-->[com.google.firebase:firebase-auth-ktx:22.0.0] /Users/ayushsinghal/.gradle/caches/transforms-3/c9885efd0a86bb7424e413535bae4481/transformed/firebase-auth-ktx-22.0.0/AndroidManifest.xml:12:17-116
+67                android:value="com.google.firebase.components.ComponentRegistrar" />
+67-->[com.google.firebase:firebase-auth-ktx:22.0.0] /Users/ayushsinghal/.gradle/caches/transforms-3/c9885efd0a86bb7424e413535bae4481/transformed/firebase-auth-ktx-22.0.0/AndroidManifest.xml:13:17-82
+68            <meta-data
+68-->[com.google.firebase:firebase-common-ktx:20.3.2] /Users/ayushsinghal/.gradle/caches/transforms-3/23ab20d5f0b1073dbc25c7dab776340c/transformed/firebase-common-ktx-20.3.2/AndroidManifest.xml:14:13-16:85
+69                android:name="com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonKtxRegistrar"
+69-->[com.google.firebase:firebase-common-ktx:20.3.2] /Users/ayushsinghal/.gradle/caches/transforms-3/23ab20d5f0b1073dbc25c7dab776340c/transformed/firebase-common-ktx-20.3.2/AndroidManifest.xml:15:17-113
+70                android:value="com.google.firebase.components.ComponentRegistrar" />
+70-->[com.google.firebase:firebase-common-ktx:20.3.2] /Users/ayushsinghal/.gradle/caches/transforms-3/23ab20d5f0b1073dbc25c7dab776340c/transformed/firebase-common-ktx-20.3.2/AndroidManifest.xml:16:17-82
+71            <meta-data
+71-->[com.google.firebase:firebase-firestore:24.6.0] /Users/ayushsinghal/.gradle/caches/transforms-3/bf3b0f49628393e9d4a310b98377c1c0/transformed/firebase-firestore-24.6.0/AndroidManifest.xml:19:13-21:85
+72                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
+72-->[com.google.firebase:firebase-firestore:24.6.0] /Users/ayushsinghal/.gradle/caches/transforms-3/bf3b0f49628393e9d4a310b98377c1c0/transformed/firebase-firestore-24.6.0/AndroidManifest.xml:20:17-111
+73                android:value="com.google.firebase.components.ComponentRegistrar" />
+73-->[com.google.firebase:firebase-firestore:24.6.0] /Users/ayushsinghal/.gradle/caches/transforms-3/bf3b0f49628393e9d4a310b98377c1c0/transformed/firebase-firestore-24.6.0/AndroidManifest.xml:21:17-82
+74            <meta-data
+74-->[com.google.firebase:firebase-auth:22.0.0] /Users/ayushsinghal/.gradle/caches/transforms-3/407a7347a5515ab77aed7f67b3359862/transformed/firebase-auth-22.0.0/AndroidManifest.xml:69:13-71:85
+75                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+75-->[com.google.firebase:firebase-auth:22.0.0] /Users/ayushsinghal/.gradle/caches/transforms-3/407a7347a5515ab77aed7f67b3359862/transformed/firebase-auth-22.0.0/AndroidManifest.xml:70:17-109
+76                android:value="com.google.firebase.components.ComponentRegistrar" />
+76-->[com.google.firebase:firebase-auth:22.0.0] /Users/ayushsinghal/.gradle/caches/transforms-3/407a7347a5515ab77aed7f67b3359862/transformed/firebase-auth-22.0.0/AndroidManifest.xml:71:17-82
+77        </service>
+78
+79        <activity
+79-->[com.google.firebase:firebase-auth:22.0.0] /Users/ayushsinghal/.gradle/caches/transforms-3/407a7347a5515ab77aed7f67b3359862/transformed/firebase-auth-22.0.0/AndroidManifest.xml:29:9-46:20
+80            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
+80-->[com.google.firebase:firebase-auth:22.0.0] /Users/ayushsinghal/.gradle/caches/transforms-3/407a7347a5515ab77aed7f67b3359862/transformed/firebase-auth-22.0.0/AndroidManifest.xml:30:13-80
+81            android:excludeFromRecents="true"
+81-->[com.google.firebase:firebase-auth:22.0.0] /Users/ayushsinghal/.gradle/caches/transforms-3/407a7347a5515ab77aed7f67b3359862/transformed/firebase-auth-22.0.0/AndroidManifest.xml:31:13-46
+82            android:exported="true"
+82-->[com.google.firebase:firebase-auth:22.0.0] /Users/ayushsinghal/.gradle/caches/transforms-3/407a7347a5515ab77aed7f67b3359862/transformed/firebase-auth-22.0.0/AndroidManifest.xml:32:13-36
+83            android:launchMode="singleTask"
+83-->[com.google.firebase:firebase-auth:22.0.0] /Users/ayushsinghal/.gradle/caches/transforms-3/407a7347a5515ab77aed7f67b3359862/transformed/firebase-auth-22.0.0/AndroidManifest.xml:33:13-44
+84            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+84-->[com.google.firebase:firebase-auth:22.0.0] /Users/ayushsinghal/.gradle/caches/transforms-3/407a7347a5515ab77aed7f67b3359862/transformed/firebase-auth-22.0.0/AndroidManifest.xml:34:13-72
+85            <intent-filter>
+85-->[com.google.firebase:firebase-auth:22.0.0] /Users/ayushsinghal/.gradle/caches/transforms-3/407a7347a5515ab77aed7f67b3359862/transformed/firebase-auth-22.0.0/AndroidManifest.xml:35:13-45:29
+86                <action android:name="android.intent.action.VIEW" />
+86-->[com.google.firebase:firebase-auth:22.0.0] /Users/ayushsinghal/.gradle/caches/transforms-3/407a7347a5515ab77aed7f67b3359862/transformed/firebase-auth-22.0.0/AndroidManifest.xml:36:17-69
+86-->[com.google.firebase:firebase-auth:22.0.0] /Users/ayushsinghal/.gradle/caches/transforms-3/407a7347a5515ab77aed7f67b3359862/transformed/firebase-auth-22.0.0/AndroidManifest.xml:36:25-66
+87
+88                <category android:name="android.intent.category.DEFAULT" />
+88-->[com.google.firebase:firebase-auth:22.0.0] /Users/ayushsinghal/.gradle/caches/transforms-3/407a7347a5515ab77aed7f67b3359862/transformed/firebase-auth-22.0.0/AndroidManifest.xml:38:17-76
+88-->[com.google.firebase:firebase-auth:22.0.0] /Users/ayushsinghal/.gradle/caches/transforms-3/407a7347a5515ab77aed7f67b3359862/transformed/firebase-auth-22.0.0/AndroidManifest.xml:38:27-73
+89                <category android:name="android.intent.category.BROWSABLE" />
+89-->[com.google.firebase:firebase-auth:22.0.0] /Users/ayushsinghal/.gradle/caches/transforms-3/407a7347a5515ab77aed7f67b3359862/transformed/firebase-auth-22.0.0/AndroidManifest.xml:39:17-78
+89-->[com.google.firebase:firebase-auth:22.0.0] /Users/ayushsinghal/.gradle/caches/transforms-3/407a7347a5515ab77aed7f67b3359862/transformed/firebase-auth-22.0.0/AndroidManifest.xml:39:27-75
+90
+91                <data
+91-->[com.google.firebase:firebase-auth:22.0.0] /Users/ayushsinghal/.gradle/caches/transforms-3/407a7347a5515ab77aed7f67b3359862/transformed/firebase-auth-22.0.0/AndroidManifest.xml:41:17-44:51
+92                    android:host="firebase.auth"
+92-->[com.google.firebase:firebase-auth:22.0.0] /Users/ayushsinghal/.gradle/caches/transforms-3/407a7347a5515ab77aed7f67b3359862/transformed/firebase-auth-22.0.0/AndroidManifest.xml:42:21-49
+93                    android:path="/"
+93-->[com.google.firebase:firebase-auth:22.0.0] /Users/ayushsinghal/.gradle/caches/transforms-3/407a7347a5515ab77aed7f67b3359862/transformed/firebase-auth-22.0.0/AndroidManifest.xml:43:21-37
+94                    android:scheme="genericidp" />
+94-->[com.google.firebase:firebase-auth:22.0.0] /Users/ayushsinghal/.gradle/caches/transforms-3/407a7347a5515ab77aed7f67b3359862/transformed/firebase-auth-22.0.0/AndroidManifest.xml:44:21-48
+95            </intent-filter>
+96        </activity>
+97        <activity
+97-->[com.google.firebase:firebase-auth:22.0.0] /Users/ayushsinghal/.gradle/caches/transforms-3/407a7347a5515ab77aed7f67b3359862/transformed/firebase-auth-22.0.0/AndroidManifest.xml:47:9-64:20
+98            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
+98-->[com.google.firebase:firebase-auth:22.0.0] /Users/ayushsinghal/.gradle/caches/transforms-3/407a7347a5515ab77aed7f67b3359862/transformed/firebase-auth-22.0.0/AndroidManifest.xml:48:13-79
+99            android:excludeFromRecents="true"
+99-->[com.google.firebase:firebase-auth:22.0.0] /Users/ayushsinghal/.gradle/caches/transforms-3/407a7347a5515ab77aed7f67b3359862/transformed/firebase-auth-22.0.0/AndroidManifest.xml:49:13-46
+100            android:exported="true"
+100-->[com.google.firebase:firebase-auth:22.0.0] /Users/ayushsinghal/.gradle/caches/transforms-3/407a7347a5515ab77aed7f67b3359862/transformed/firebase-auth-22.0.0/AndroidManifest.xml:50:13-36
+101            android:launchMode="singleTask"
+101-->[com.google.firebase:firebase-auth:22.0.0] /Users/ayushsinghal/.gradle/caches/transforms-3/407a7347a5515ab77aed7f67b3359862/transformed/firebase-auth-22.0.0/AndroidManifest.xml:51:13-44
+102            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+102-->[com.google.firebase:firebase-auth:22.0.0] /Users/ayushsinghal/.gradle/caches/transforms-3/407a7347a5515ab77aed7f67b3359862/transformed/firebase-auth-22.0.0/AndroidManifest.xml:52:13-72
+103            <intent-filter>
+103-->[com.google.firebase:firebase-auth:22.0.0] /Users/ayushsinghal/.gradle/caches/transforms-3/407a7347a5515ab77aed7f67b3359862/transformed/firebase-auth-22.0.0/AndroidManifest.xml:53:13-63:29
+104                <action android:name="android.intent.action.VIEW" />
+104-->[com.google.firebase:firebase-auth:22.0.0] /Users/ayushsinghal/.gradle/caches/transforms-3/407a7347a5515ab77aed7f67b3359862/transformed/firebase-auth-22.0.0/AndroidManifest.xml:36:17-69
+104-->[com.google.firebase:firebase-auth:22.0.0] /Users/ayushsinghal/.gradle/caches/transforms-3/407a7347a5515ab77aed7f67b3359862/transformed/firebase-auth-22.0.0/AndroidManifest.xml:36:25-66
+105
+106                <category android:name="android.intent.category.DEFAULT" />
+106-->[com.google.firebase:firebase-auth:22.0.0] /Users/ayushsinghal/.gradle/caches/transforms-3/407a7347a5515ab77aed7f67b3359862/transformed/firebase-auth-22.0.0/AndroidManifest.xml:38:17-76
+106-->[com.google.firebase:firebase-auth:22.0.0] /Users/ayushsinghal/.gradle/caches/transforms-3/407a7347a5515ab77aed7f67b3359862/transformed/firebase-auth-22.0.0/AndroidManifest.xml:38:27-73
+107                <category android:name="android.intent.category.BROWSABLE" />
+107-->[com.google.firebase:firebase-auth:22.0.0] /Users/ayushsinghal/.gradle/caches/transforms-3/407a7347a5515ab77aed7f67b3359862/transformed/firebase-auth-22.0.0/AndroidManifest.xml:39:17-78
+107-->[com.google.firebase:firebase-auth:22.0.0] /Users/ayushsinghal/.gradle/caches/transforms-3/407a7347a5515ab77aed7f67b3359862/transformed/firebase-auth-22.0.0/AndroidManifest.xml:39:27-75
+108
+109                <data
+109-->[com.google.firebase:firebase-auth:22.0.0] /Users/ayushsinghal/.gradle/caches/transforms-3/407a7347a5515ab77aed7f67b3359862/transformed/firebase-auth-22.0.0/AndroidManifest.xml:41:17-44:51
+110                    android:host="firebase.auth"
+110-->[com.google.firebase:firebase-auth:22.0.0] /Users/ayushsinghal/.gradle/caches/transforms-3/407a7347a5515ab77aed7f67b3359862/transformed/firebase-auth-22.0.0/AndroidManifest.xml:42:21-49
+111                    android:path="/"
+111-->[com.google.firebase:firebase-auth:22.0.0] /Users/ayushsinghal/.gradle/caches/transforms-3/407a7347a5515ab77aed7f67b3359862/transformed/firebase-auth-22.0.0/AndroidManifest.xml:43:21-37
+112                    android:scheme="recaptcha" />
+112-->[com.google.firebase:firebase-auth:22.0.0] /Users/ayushsinghal/.gradle/caches/transforms-3/407a7347a5515ab77aed7f67b3359862/transformed/firebase-auth-22.0.0/AndroidManifest.xml:44:21-48
+113            </intent-filter>
+114        </activity>
+115
+116        <provider
+116-->[com.google.firebase:firebase-common:20.3.2] /Users/ayushsinghal/.gradle/caches/transforms-3/740f9f887f5dc9fa2f3a13ef93a306d9/transformed/firebase-common-20.3.2/AndroidManifest.xml:25:9-30:39
+117            android:name="com.google.firebase.provider.FirebaseInitProvider"
+117-->[com.google.firebase:firebase-common:20.3.2] /Users/ayushsinghal/.gradle/caches/transforms-3/740f9f887f5dc9fa2f3a13ef93a306d9/transformed/firebase-common-20.3.2/AndroidManifest.xml:26:13-77
+118            android:authorities="com.ayushsinghal.quizapp.firebaseinitprovider"
+118-->[com.google.firebase:firebase-common:20.3.2] /Users/ayushsinghal/.gradle/caches/transforms-3/740f9f887f5dc9fa2f3a13ef93a306d9/transformed/firebase-common-20.3.2/AndroidManifest.xml:27:13-72
+119            android:directBootAware="true"
+119-->[com.google.firebase:firebase-common:20.3.2] /Users/ayushsinghal/.gradle/caches/transforms-3/740f9f887f5dc9fa2f3a13ef93a306d9/transformed/firebase-common-20.3.2/AndroidManifest.xml:28:13-43
+120            android:exported="false"
+120-->[com.google.firebase:firebase-common:20.3.2] /Users/ayushsinghal/.gradle/caches/transforms-3/740f9f887f5dc9fa2f3a13ef93a306d9/transformed/firebase-common-20.3.2/AndroidManifest.xml:29:13-37
+121            android:initOrder="100" />
+121-->[com.google.firebase:firebase-common:20.3.2] /Users/ayushsinghal/.gradle/caches/transforms-3/740f9f887f5dc9fa2f3a13ef93a306d9/transformed/firebase-common-20.3.2/AndroidManifest.xml:30:13-36
+122
+123        <activity
+123-->[com.google.android.gms:play-services-base:18.0.1] /Users/ayushsinghal/.gradle/caches/transforms-3/c072d3a5f6b32087d19c40b81d43f11a/transformed/play-services-base-18.0.1/AndroidManifest.xml:20:9-22:45
+124            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+124-->[com.google.android.gms:play-services-base:18.0.1] /Users/ayushsinghal/.gradle/caches/transforms-3/c072d3a5f6b32087d19c40b81d43f11a/transformed/play-services-base-18.0.1/AndroidManifest.xml:20:19-85
+125            android:exported="false"
+125-->[com.google.android.gms:play-services-base:18.0.1] /Users/ayushsinghal/.gradle/caches/transforms-3/c072d3a5f6b32087d19c40b81d43f11a/transformed/play-services-base-18.0.1/AndroidManifest.xml:22:19-43
+126            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+126-->[com.google.android.gms:play-services-base:18.0.1] /Users/ayushsinghal/.gradle/caches/transforms-3/c072d3a5f6b32087d19c40b81d43f11a/transformed/play-services-base-18.0.1/AndroidManifest.xml:21:19-78
+127
+128        <meta-data
+128-->[com.google.android.gms:play-services-basement:18.1.0] /Users/ayushsinghal/.gradle/caches/transforms-3/9da81931d3fa7829666edbb3e682542a/transformed/play-services-basement-18.1.0/AndroidManifest.xml:21:9-23:69
+129            android:name="com.google.android.gms.version"
+129-->[com.google.android.gms:play-services-basement:18.1.0] /Users/ayushsinghal/.gradle/caches/transforms-3/9da81931d3fa7829666edbb3e682542a/transformed/play-services-basement-18.1.0/AndroidManifest.xml:22:13-58
+130            android:value="@integer/google_play_services_version" />
+130-->[com.google.android.gms:play-services-basement:18.1.0] /Users/ayushsinghal/.gradle/caches/transforms-3/9da81931d3fa7829666edbb3e682542a/transformed/play-services-basement-18.1.0/AndroidManifest.xml:23:13-66
+131
+132        <provider
+132-->[androidx.emoji2:emoji2:1.2.0] /Users/ayushsinghal/.gradle/caches/transforms-3/892d4fddb439c3ce9adb539eb761e1a1/transformed/emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
+133            android:name="androidx.startup.InitializationProvider"
+133-->[androidx.emoji2:emoji2:1.2.0] /Users/ayushsinghal/.gradle/caches/transforms-3/892d4fddb439c3ce9adb539eb761e1a1/transformed/emoji2-1.2.0/AndroidManifest.xml:25:13-67
+134            android:authorities="com.ayushsinghal.quizapp.androidx-startup"
+134-->[androidx.emoji2:emoji2:1.2.0] /Users/ayushsinghal/.gradle/caches/transforms-3/892d4fddb439c3ce9adb539eb761e1a1/transformed/emoji2-1.2.0/AndroidManifest.xml:26:13-68
+135            android:exported="false" >
+135-->[androidx.emoji2:emoji2:1.2.0] /Users/ayushsinghal/.gradle/caches/transforms-3/892d4fddb439c3ce9adb539eb761e1a1/transformed/emoji2-1.2.0/AndroidManifest.xml:27:13-37
+136            <meta-data
+136-->[androidx.emoji2:emoji2:1.2.0] /Users/ayushsinghal/.gradle/caches/transforms-3/892d4fddb439c3ce9adb539eb761e1a1/transformed/emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
+137                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+137-->[androidx.emoji2:emoji2:1.2.0] /Users/ayushsinghal/.gradle/caches/transforms-3/892d4fddb439c3ce9adb539eb761e1a1/transformed/emoji2-1.2.0/AndroidManifest.xml:30:17-75
+138                android:value="androidx.startup" />
+138-->[androidx.emoji2:emoji2:1.2.0] /Users/ayushsinghal/.gradle/caches/transforms-3/892d4fddb439c3ce9adb539eb761e1a1/transformed/emoji2-1.2.0/AndroidManifest.xml:31:17-49
+139            <meta-data
+139-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/ayushsinghal/.gradle/caches/transforms-3/e5f109ddc6cb880677a3a27bab07fa68/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:31:13-33:52
+140                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+140-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/ayushsinghal/.gradle/caches/transforms-3/e5f109ddc6cb880677a3a27bab07fa68/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:32:17-78
+141                android:value="androidx.startup" />
+141-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/ayushsinghal/.gradle/caches/transforms-3/e5f109ddc6cb880677a3a27bab07fa68/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:33:17-49
+142        </provider>
+143    </application>
+144
+145</manifest>
